@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ariel Aziz | Command Center</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="futuristic-bg">
+    <div class="grid-overlay"></div>
+
+    <header>
+      <div class="side-decor left-decor">
+        <div class="block"></div>
+        <div class="scanner-text">STATUS: AUTHORIZED</div>
+        <div class="scanner-text">LOC: BANDUNG_ID</div>
+      </div>
+    </header>
+
+    <nav class="cyber-nav">
+      <a
+        href="https://www.dicoding.com/users/elaziizzz/academies"
+        target="_blank"
+        class="neon-text nav-link"
+        >[ ACCESS_DICODING_PROFILE ]</a
+      >
+      <a href="#main-scene" class="nav-link">PROJECTS</a>
+    </nav>
+
+    <main id="main-scene" class="split-layout">
+      <aside class="left-panel">
+        <div class="lanyard-container">
+          <div class="tali-neon"></div>
+          <div class="card" id="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="scan-line"></div>
+                <img src="profil.jpeg" alt="Ariel Aziz Bhadrika" />
+                <div class="card-label">ID_SCAN_01</div>
+              </div>
+              <div class="card-back">
+                <h2 class="neon-text">ARIEL AZIZ B.</h2>
+                <p>INFORMATICS '23</p>
+                <div class="glitch-id">UIN SGD BANDUNG</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bio-text">
+          <h2 class="neon-text">USER_PROFILE</h2>
+          <p>
+            Nama saya Ariel Aziz Bhadrika, mahasiswa Teknik Informatika semester
+            6 di UIN Sunan Gunung Djati Bandung. Saya memiliki minat besar pada
+            Web Development dan UI/UX Design.
+          </p>
+        </div>
+      </aside>
+
+      <article class="right-panel">
+        <h2 class="neon-text">PROJECT_DATABASE</h2>
+        <div class="project-list" id="project-list">
+          <button class="cyber-btn project-link" onclick="openProject()">
+            <span class="status-dot"></span> ACCESS: [MONEYKU_APP]
+          </button>
+
+          <button class="cyber-btn project-link locked">
+            <span class="status-dot offline"></span> ACCESS: [ENCRYPTED_DATA]
+          </button>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p class="scanner-text">
+          &copy; 2026 ARIEL_AZIZ // DICODING_SUBMISSION
+        </p>
+      </div>
+    </footer>
+
+    <div id="project-overlay" class="hidden">
+      <div class="overlay-header">
+        <button class="exit-btn" onclick="closeProject()">
+          [ EXIT_SESSION ]
+        </button>
+        <h1 class="neon-text-title">MONEYKU_LOGS</h1>
+      </div>
+
+      <div class="project-content">
+        <div class="project-intro">
+          <img
+            src="moneykupromotion.jpeg"
+            class="promo-banner"
+            alt="Promo Moneyku"
+          />
+          <p>
+            Aplikasi pencatat keuangan "Moneyku" yang saya kembangkan untuk
+            memantau pemasukan dan pengeluaran.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <div class="project-card">
+            <div class="phone-mockup">
+              <img src="menu utama.jpeg" alt="Menu Utama" />
+            </div>
+            <h3>DASHBOARD_UI</h3>
+          </div>
+          <div class="project-card">
+            <div class="phone-mockup">
+              <img src="aktivitas.jpeg" alt="Aktivitas" />
+            </div>
+            <h3>ACTIVITY_LOG</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
